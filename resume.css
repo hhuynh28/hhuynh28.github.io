@@ -1,0 +1,28 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-attachment: fixed;
+    background-color: white;
+}
+#nav {
+    list-style-type: none;
+    margin:-8px;
+    padding:0;
+    overflow: hidden;
+    background-color:lavender;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a{
+    display:block; 
+    padding: 14px 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background-color: mintcream;
+}
